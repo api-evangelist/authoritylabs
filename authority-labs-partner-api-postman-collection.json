@@ -1,0 +1,90 @@
+{
+    "id": "fb60f2c2b9f58f6dec4e37791f16bdd0",
+    "name": "Authority Labs Partner API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "722b1ec94d6df761af24593aa0a8bb1c",
+            "name": "Delayed Queue",
+            "url": "httpsapi.authoritylabs.com\/\/keywords",
+            "description": "Delayed Queue",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fb60f2c2b9f58f6dec4e37791f16bdd0",
+            "rawModeData": ""
+        },
+        {
+            "id": "948288b08dc64d4f5c49011c28e468f6",
+            "name": "Priority Queue",
+            "url": "httpsapi.authoritylabs.com\/\/keywords\/priority",
+            "description": "Priority Queue",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fb60f2c2b9f58f6dec4e37791f16bdd0",
+            "rawModeData": ""
+        },
+        {
+            "id": "fe71f37d95940a21dbf432aed7ae8969",
+            "name": "Search Results",
+            "url": "httpsapi.authoritylabs.com\/\/keywords\/{keyword}",
+            "description": "Search Results",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "keyword",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fb60f2c2b9f58f6dec4e37791f16bdd0",
+            "rawModeData": ""
+        }
+    ]
+}
