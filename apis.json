@@ -1,0 +1,122 @@
+{
+    "name": "AuthorityLabs",
+    "description": "Track website rankings in Google, Yahoo!, and Bing daily. Our automated SERP tracking saves you time and helps you respond quickly to ranking changes.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/694-authoritylabs.jpg",
+    "tags": [
+        "analysis",
+        "api service provider",
+        "general data",
+        "have api",
+        "relative data",
+        "seo rank checking service"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "AuthorityLabs Partner API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/694-authoritylabs.jpg",
+            "humanURL": "http:\/\/authoritylabs.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/authoritylabs-partner-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authoritylabs-partner-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Authority Labs Partner API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/694-authoritylabs.jpg",
+            "humanURL": "http:\/\/authoritylabs.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/authority-labs-partner-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authority-labs-partner-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.authoritylabs.com\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.authoritylabs.com"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/authoritylabsblog"
+        },
+        {
+            "type": "Console",
+            "url": "http:\/\/authoritylabs.com\/api\/console\/"
+        },
+        {
+            "type": "Contact Form",
+            "url": "http:\/\/authoritylabs.com\/contact\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/authoritylabs"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/authoritylabs"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/authoritylabs.com\/api\/"
+        },
+        {
+            "type": "Documentation",
+            "url": "http:\/\/docs.authoritylabs.apiary.io\/#keywordrankresource"
+        },
+        {
+            "type": "Email",
+            "url": "info@authoritylabs.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/authoritylabs"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/authoritylabs.com\/pricing\/"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/authoritylabs.com\/privacy\/"
+        },
+        {
+            "type": "Rate Limits",
+            "url": "http:\/\/authoritylabs.com\/api\/partner-api\/#rate-limiting"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/authoritylabs"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/authoritylabs.com"
+        }
+    ]
+}
