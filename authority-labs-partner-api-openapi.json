@@ -1,0 +1,50 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Authority Labs Partner API",
+        "description": "The Partner API should be used when you only require search results and is different from our standard interface accounts. Pricing is based on specific endpoint usage, per thousand calls.",
+        "termsOfService": "http:\/\/authoritylabs.com\/terms\/"
+    },
+    "servers": [
+        "httpsapi.authoritylabs.com\/"
+    ],
+    "paths": {
+        "\/keywords": {
+            "post": {
+                "summary": "Delayed Queue",
+                "description": "Delayed Queue",
+                "operationId": "DelayedQueue",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/keywords\/priority": {
+            "post": {
+                "summary": "Priority Queue",
+                "description": "Priority Queue",
+                "operationId": "PriorityQueue",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/keywords\/{keyword}": {
+            "get": {
+                "summary": "Search Results",
+                "description": "Search Results",
+                "operationId": "SearchResults",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
