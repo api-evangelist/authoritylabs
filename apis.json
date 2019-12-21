@@ -10,8 +10,8 @@
         "relative data",
         "seo rank checking service"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -25,11 +25,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/authoritylabs-partner-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authoritylabs-partner-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authoritylabs-partner-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/authoritylabs-partner-api-openapi.json"
                 }
             ]
         },
@@ -43,17 +43,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/authority-labs-partner-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authority-labs-partner-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authority-labs-partner-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/authority-labs-partner-api-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base",
             "url": "https:\/\/api.authoritylabs.com\/"
