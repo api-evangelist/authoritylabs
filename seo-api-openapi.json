@@ -1,0 +1,62 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "SEO API",
+        "description": "AuthorityLabs makes it easy to track rankings and discover SERP feature opportunities with the most comprehensive set of daily SERP data points. Our Partner API allows you to pull raw search results from our system to yours; queue up a keyword, search engine and location combination, and we\u2019ll return the ~top 100 results in JSON format. With that data you can parse out rankings and data mine the full SERP list returned\n\n# Overview\n1. An <a href=\"https:\/\/documenter.getpostman.com\/view\/7547600\/SVtSVpZB?version=latest#authentication\">API Auth Token<\/a> is required to be sent as part of every request. \n2. A <a href=\"#callback-url\">Callback URL<\/a> is required: every POST is picked up by our system when resources are available to process POST. We send a form POST back to you, letting you know when results are ready.\n3. Partner API has a <a href=\"#rate-limits\">rate limit<\/a>.\n4. We have two separate queues: <a href=\"#delayed-queue\">delayed queue<\/a> guarantees data within 24 hours, and <a ",
+        "termsOfService": ""
+    },
+    "servers": [],
+    "paths": {
+        "https:\/\/api.authoritylabs.com\/account\/{account_id}.json": {
+            "GET": {
+                "summary": "Account & System Status",
+                "description": "Use this endpoint to access information about your account. It will tell you <b>delayed queue<\/b> time-to-deliver results (in hours).",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "http:\/\/api.authoritylabs.com\/keywords\/get.json?": {
+            "GET": {
+                "summary": "JSON Results",
+                "description": "This endpoint provides the ~ top 100 results for your keyword \/ engine \/ locale \/ date based on your parameters. Make sure to include \"rank_date\" in YYYY-MM-DD format. To retrieve html , change end of url from \"get.json\" to \"get.html\"",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "http:\/\/api.authoritylabs.com\/keywords\/priority": {
+            "POST": {
+                "summary": "Adding to Queue | Google Maps",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "http:\/\/api.authoritylabs.com\/account\/{account_id}\/transaction_errors?": {
+            "GET": {
+                "summary": "Callback Errors ",
+                "description": "What if your callback URL is down or doesn\u2019t respond when we try and POST a callback to it? You can use this endpoint to download all the callback data from those and use that data to do your GET requests. The data available at this endpoint should be the same data you see in the callback payloads we send you normally via your callback URL. This endpoint is paginated at 100 errors per page.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "auth_token",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
