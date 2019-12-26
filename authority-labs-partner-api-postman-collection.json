@@ -1,5 +1,5 @@
 {
-    "id": "d21dab4eed28773142fe09aa33260614",
+    "id": "97b81fb4ef1e94fc1a8eda4cc0c80337",
     "name": "Authority Labs Partner API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "3cf23236da912133e8f4d6c47b823a78",
+            "id": "984f9c4ffde77d49c61e6039bd150fb3",
             "name": "Delayed Queue",
             "url": "httpsapi.authoritylabs.com\/\/keywords",
             "description": "Delayed Queue",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d21dab4eed28773142fe09aa33260614",
+            "collectionId": "97b81fb4ef1e94fc1a8eda4cc0c80337",
             "rawModeData": ""
         },
         {
-            "id": "36b08a1147bc027e9bebc6f806eb60f9",
+            "id": "b15fc4f7786145c97a9b17e31df8003c",
             "name": "Priority Queue",
             "url": "httpsapi.authoritylabs.com\/\/keywords\/priority",
             "description": "Priority Queue",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d21dab4eed28773142fe09aa33260614",
+            "collectionId": "97b81fb4ef1e94fc1a8eda4cc0c80337",
             "rawModeData": ""
         },
         {
-            "id": "4fe1ed24f839ae879c1703f165675f2f",
+            "id": "0c70314842d8af0db74bf79d4d7871e1",
             "name": "Search Results",
             "url": "httpsapi.authoritylabs.com\/\/keywords\/{keyword}",
             "description": "Search Results",
@@ -83,7 +83,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d21dab4eed28773142fe09aa33260614",
+            "collectionId": "97b81fb4ef1e94fc1a8eda4cc0c80337",
             "rawModeData": ""
         }
     ]
