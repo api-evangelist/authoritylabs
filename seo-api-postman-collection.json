@@ -1,0 +1,120 @@
+{
+    "id": "267e54b5325b96c59fde301010f001a7",
+    "name": "SEO API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "12bad265a22a9520b6a2072baa4c9409",
+            "name": "Account & System Status",
+            "url": "https:\/\/api.authoritylabs.com\/account\/{account_id}.json",
+            "description": "Use this endpoint to access information about your account. It will tell you <b>delayed queue<\/b> time-to-deliver results (in hours).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "267e54b5325b96c59fde301010f001a7",
+            "rawModeData": ""
+        },
+        {
+            "id": "06c11b4dab1f8c70b32759e03a7d53f1",
+            "name": "JSON Results",
+            "url": "http:\/\/api.authoritylabs.com\/keywords\/get.json?",
+            "description": "This endpoint provides the ~ top 100 results for your keyword \/ engine \/ locale \/ date based on your parameters. Make sure to include \"rank_date\" in YYYY-MM-DD format. To retrieve html , change end of url from \"get.json\" to \"get.html\"",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "267e54b5325b96c59fde301010f001a7",
+            "rawModeData": ""
+        },
+        {
+            "id": "872b663eefa14d2cf6b5a352c8374762",
+            "name": "Adding to Queue | Google Maps",
+            "url": "http:\/\/api.authoritylabs.com\/keywords\/priority",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "267e54b5325b96c59fde301010f001a7",
+            "rawModeData": ""
+        },
+        {
+            "id": "754805728ba8a18847140e0c6854544c",
+            "name": "Callback Errors ",
+            "url": "http:\/\/api.authoritylabs.com\/account\/{account_id}\/transaction_errors?",
+            "description": "What if your callback URL is down or doesn\u2019t respond when we try and POST a callback to it? You can use this endpoint to download all the callback data from those and use that data to do your GET requests. The data available at this endpoint should be the same data you see in the callback payloads we send you normally via your callback URL. This endpoint is paginated at 100 errors per page.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "page",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "auth_token",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "267e54b5325b96c59fde301010f001a7",
+            "rawModeData": ""
+        }
+    ]
+}
