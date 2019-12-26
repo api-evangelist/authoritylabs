@@ -7,32 +7,15 @@
         "api service provider",
         "general data",
         "have api",
+        "postman collections",
         "relative data",
         "seo rank checking service"
     ],
-    "created": "2019-12-20",
-    "modified": "2019-12-20",
+    "created": "2019-12-25",
+    "modified": "2019-12-25",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
-        {
-            "name": "AuthorityLabs Partner API",
-            "description": null,
-            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/694-authoritylabs.jpg",
-            "humanURL": "http:\/\/authoritylabs.com",
-            "baseURL": "",
-            "tags": [],
-            "properties": [
-                {
-                    "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/authoritylabs-partner-api.json"
-                },
-                {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/authoritylabs-partner-api-openapi.json"
-                }
-            ]
-        },
         {
             "name": "Authority Labs Partner API",
             "description": null,
@@ -48,6 +31,32 @@
                 {
                     "type": "x-openapi",
                     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/authority-labs-partner-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/authority-labs-partner-api-postman-collection.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/authority-labs-partner-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "SEO API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/694-authoritylabs.jpg",
+            "humanURL": "http:\/\/authoritylabs.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/seo-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authoritylabs\/master\/seo-api-postman-collection.json"
                 }
             ]
         }
